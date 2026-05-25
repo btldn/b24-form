@@ -1,3 +1,4 @@
+
 (function () {
 
   /* ================================================================
@@ -178,6 +179,9 @@
       'max-width:600px!important;text-align:center!important;' +
       'font-size:16px!important;line-height:150%!important;' +
       'color:' + C.textMuted + '!important;margin:0 auto!important}',
+
+    /* Заголовок — убрать бордер снизу */
+    '.b24-form-header{border-bottom:none!important}',
 
     /* Инпуты */
     '.b24-form-control{' +
