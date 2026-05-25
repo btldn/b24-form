@@ -44,9 +44,9 @@
     // cols: строка grid-template-columns, null = flex-column (одна колонка)
     grid: {
       steps: {
-        1: '1fr 1fr',           // шаг 1 — 2 колонки
-        2: 'repeat(6, 1fr)',    // шаг 2 — 6 колонок
-        3: null,                // шаг 3 — одна колонка
+        1: '1fr',
+        2: null,
+        3: null,
       },
       colGap: { 1: '36px', 2: '24px', 3: '0' },
       rowGap: '24px',
